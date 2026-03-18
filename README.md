@@ -67,11 +67,11 @@ FENITH/
 
 | Code | Title / Conference | Year | Repository |
 |---|---|---|---|
-| P-M | MDPI Applied Sciences | 2024 | *Repo TBD* |
+| P-M | MDPI Applied Sciences (21 citations) | 2024 | Foundations — *Repo TBD* |
 | P-IS | ISM 2025 | 2025 | [FedHR5.0](https://github.com/FabioLiberti/FedHR5.0) |
 | P-CR | CRISTAIN 2025 | 2025 | [CRISTAIN2025](https://github.com/FabioLiberti/CRISTAIN2025) |
 | P-C1 | CIDE 2025 (FL) | 2025 | [CIDE](https://github.com/FabioLiberti/CIDE) |
-| P-C2 | CIDE 2025 (FL + XAI DeepFake) | 2025 | [CIDE](https://github.com/FabioLiberti/CIDE) |
+| P-C2 | CIDE 2025 (FL + XAI DeepFake) | 2025 | *Repo TBD* |
 | P-IT | ITAIS 2025 | 2025 | [AI-DIGOSA](https://github.com/FabioLiberti/AI-DIGOSA) |
 | IFKAD | IFKAD 2026 (FedHR5.0) | 2026 | *Repo TBD* |
 | ICID | ICID 2026 | 2026 | [ICID2026](https://github.com/FabioLiberti/ICID2026) |
