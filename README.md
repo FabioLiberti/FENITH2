@@ -26,6 +26,7 @@
   <img src="https://img.shields.io/badge/Papers-10-green" alt="Papers">
   <img src="https://img.shields.io/github/last-commit/FabioLiberti/FENITH2" alt="Last Commit">
   <a href="https://doi.org/10.3390/app14188490"><img src="https://img.shields.io/badge/DOI-10.3390%2Fapp14188490-blue" alt="DOI"></a>
+  <a href="https://api.semanticscholar.org/CorpusID:272835448"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2FDOI%3A10.3390%2Fapp14188490%3Ffields%3DcitationCount&query=citationCount&label=Citations&color=orange" alt="Citations"></a>
   <a href="https://github.com/FabioLiberti/FENITH2/actions/workflows/links.yml"><img src="https://github.com/FabioLiberti/FENITH2/actions/workflows/links.yml/badge.svg" alt="Link Checker"></a>
 </p>
 
@@ -41,20 +42,20 @@ This repository serves as the central hub for the PhD research project on **Fede
 
 | | Question | Cluster |
 |---|---|---|
-| **RQ1** | **Technological Framework** — How to design Federated Learning architectures capable of handling the high statistical, infrastructural, and participation heterogeneity of hospital nodes, while ensuring scalability, efficiency, and reliability of distributed training? | Platforms |
-| **RQ2** | **Multidimensional Governance** — Which governance models can balance technological innovation, regulatory compliance (GDPR/EHDS), economic sustainability, and socio-ethical principles, enabling federated trust networks in healthcare? | Governance |
-| **RQ3** | **Practical Adoption** — What are the main barriers and enabling conditions for the effective adoption of Federated Learning in Italian hospitals, in technological, organizational, and cultural terms? | Applications |
-| **RQ4** | **EHDS Interoperability** — How can Federated Learning be integrated with international healthcare standards (HL7/FHIR, OMOP/OHDSI) to ensure full compatibility with the European Health Data Space? | Platforms · Governance |
+| **RQ1** | **Technological Framework** — How to design Federated Learning architectures capable of handling the high statistical, infrastructural, and participation heterogeneity of hospital nodes, while ensuring scalability, efficiency, and reliability of distributed training? | [Platforms](#platforms "flopbg · BLEKFL2 · FL-EHDS-FLICS2026") |
+| **RQ2** | **Multidimensional Governance** — Which governance models can balance technological innovation, regulatory compliance (GDPR/EHDS), economic sustainability, and socio-ethical principles, enabling federated trust networks in healthcare? | [Governance](#governance "AI-DIGOSA · icsis2026 · ICID2026") |
+| **RQ3** | **Practical Adoption** — What are the main barriers and enabling conditions for the effective adoption of Federated Learning in Italian hospitals, in technological, organizational, and cultural terms? | [Applications](#applications "Questionnaire_FL · CIDE · CIDE2 · FedHR5.0 · CRISTAIN2025") |
+| **RQ4** | **EHDS Interoperability** — How can Federated Learning be integrated with international healthcare standards (HL7/FHIR, OMOP/OHDSI) to ensure full compatibility with the European Health Data Space? | [Platforms](#platforms "flopbg · BLEKFL2 · FL-EHDS-FLICS2026") · [Governance](#governance "AI-DIGOSA · icsis2026 · ICID2026") |
 
 <details>
 <summary><em>Research Questions (IT)</em></summary>
 
 | | Domanda | Cluster |
 |---|---|---|
-| **RQ1** | **Framework Tecnologico** — Come progettare architetture di Federated Learning in grado di gestire l'elevata eterogeneità statistica, infrastrutturale e di partecipazione dei nodi ospedalieri, assicurando scalabilità, efficienza e affidabilità del training distribuito? | Platforms |
-| **RQ2** | **Governance Multidimensionale** — Quali modelli di governance possono bilanciare innovazione tecnologica, conformità normativa (GDPR/EHDS), sostenibilità economica e principi etico-sociali, abilitando reti federate di fiducia nel contesto sanitario? | Governance |
-| **RQ3** | **Adozione Pratica** — Quali sono le principali barriere e condizioni abilitanti per l'adozione effettiva del Federated Learning negli ospedali italiani, in termini tecnologici, organizzativi e culturali? | Applications |
-| **RQ4** | **Interoperabilità EHDS** — In che modo il Federated Learning può essere integrato con gli standard sanitari internazionali (HL7/FHIR, OMOP/OHDSI) per garantire la piena compatibilità con l'EHDS? | Platforms · Governance |
+| **RQ1** | **Framework Tecnologico** — Come progettare architetture di Federated Learning in grado di gestire l'elevata eterogeneità statistica, infrastrutturale e di partecipazione dei nodi ospedalieri, assicurando scalabilità, efficienza e affidabilità del training distribuito? | [Platforms](#platforms "flopbg · BLEKFL2 · FL-EHDS-FLICS2026") |
+| **RQ2** | **Governance Multidimensionale** — Quali modelli di governance possono bilanciare innovazione tecnologica, conformità normativa (GDPR/EHDS), sostenibilità economica e principi etico-sociali, abilitando reti federate di fiducia nel contesto sanitario? | [Governance](#governance "AI-DIGOSA · icsis2026 · ICID2026") |
+| **RQ3** | **Adozione Pratica** — Quali sono le principali barriere e condizioni abilitanti per l'adozione effettiva del Federated Learning negli ospedali italiani, in termini tecnologici, organizzativi e culturali? | [Applications](#applications "Questionnaire_FL · CIDE · CIDE2 · FedHR5.0 · CRISTAIN2025") |
+| **RQ4** | **Interoperabilità EHDS** — In che modo il Federated Learning può essere integrato con gli standard sanitari internazionali (HL7/FHIR, OMOP/OHDSI) per garantire la piena compatibilità con l'EHDS? | [Platforms](#platforms "flopbg · BLEKFL2 · FL-EHDS-FLICS2026") · [Governance](#governance "AI-DIGOSA · icsis2026 · ICID2026") |
 
 </details>
 
@@ -161,6 +162,7 @@ gantt
     section Thesis
     FENITH meta-repo                 :active, 2026-03, 2026-09
     PhD Thesis writing               :active, 2026-03, 2026-12
+    Thesis delivery                  :milestone, 2026-05-31, 0d
 ```
 
 ---
@@ -316,11 +318,13 @@ FENITH/
 │   ├── thesis/          # Thesis documents and outlines
 │   ├── papers/          # Published and submitted papers (see INDEX.md)
 │   ├── questionnaire/   # Survey research materials
-│   └── architecture.md  # Mermaid architecture diagram
+│   ├── architecture.md  # Mermaid architecture diagram
+│   └── README.md        # Documentation guide
 ├── .github/workflows/   # CI: link checker
 ├── CITATION.cff         # BibTeX citation for the foundational paper
 ├── CONTRIBUTING.md      # Contribution guidelines
 ├── CHANGELOG.md         # Version history
+├── SECURITY.md          # Security and responsible disclosure policy
 └── LICENSE              # CC BY-NC-SA 4.0
 ```
 
