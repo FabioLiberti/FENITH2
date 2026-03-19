@@ -26,7 +26,7 @@
   <img src="https://img.shields.io/badge/Papers-10-green" alt="Papers">
   <img src="https://img.shields.io/github/last-commit/FabioLiberti/FENITH2" alt="Last Commit">
   <a href="https://doi.org/10.3390/app14188490"><img src="https://img.shields.io/badge/DOI-10.3390%2Fapp14188490-blue" alt="DOI"></a>
-  <a href="https://api.semanticscholar.org/CorpusID:272835448"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2FDOI%3A10.3390%2Fapp14188490%3Ffields%3DcitationCount&query=citationCount&label=Citations&color=orange" alt="Citations"></a>
+  <a href="https://scholar.google.com/citations?user=ce_iUyEAAAAJ&hl=it"><img src="https://img.shields.io/badge/Citations-21-orange" alt="Citations"></a>
   <a href="https://github.com/FabioLiberti/FENITH2/actions/workflows/links.yml"><img src="https://github.com/FabioLiberti/FENITH2/actions/workflows/links.yml/badge.svg" alt="Link Checker"></a>
 </p>
 
