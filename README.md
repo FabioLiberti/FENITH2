@@ -23,13 +23,14 @@
 <p align="center">
   <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg" alt="License"></a>
   <img src="https://img.shields.io/badge/Submodules-16-blue" alt="Submodules">
-  <img src="https://img.shields.io/github/stars/FabioLiberti/FENITH2?style=social" alt="Stars">
-  <img src="https://img.shields.io/github/forks/FabioLiberti/FENITH2?style=social" alt="Forks">
   <img src="https://img.shields.io/badge/Papers-10-green" alt="Papers">
   <img src="https://img.shields.io/github/last-commit/FabioLiberti/FENITH2" alt="Last Commit">
   <a href="https://doi.org/10.3390/app14188490"><img src="https://img.shields.io/badge/DOI-10.3390%2Fapp14188490-blue" alt="DOI"></a>
   <a href="https://scholar.google.com/citations?user=ce_iUyEAAAAJ&hl=it"><img src="https://img.shields.io/badge/Citations-21-orange" alt="Citations"></a>
   <a href="https://github.com/FabioLiberti/FENITH2/actions/workflows/links.yml"><img src="https://github.com/FabioLiberti/FENITH2/actions/workflows/links.yml/badge.svg" alt="Link Checker"></a>
+  <br>
+  <img src="https://img.shields.io/github/stars/FabioLiberti/FENITH2?style=social" alt="Stars">
+  <img src="https://img.shields.io/github/forks/FabioLiberti/FENITH2?style=social" alt="Forks">
 </p>
 
 ---
