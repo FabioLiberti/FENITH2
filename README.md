@@ -424,13 +424,14 @@ This research has been conducted in collaboration with the following institution
 
 This PhD research was carried out under the supervision of:
 
-- **[Supervisor Name]** — Universitas Mercatorum *(thesis supervisor)*
-- **[Co-supervisor Name]** — [Institution] *(co-supervisor)*
+- **Prof. Barbara Martini** — Universitas Mercatorum *(thesis supervisor)*
+- **Prof. Andrea Mazzitelli** — Universitas Mercatorum *(co-supervisor)*
 
-The author gratefully acknowledges:
+The author gratefully acknowledges the contributions of:
 
-- The **Ospedale Pediatrico Bambino Gesù** research team for providing access to clinical datasets and domain expertise in pediatric healthcare AI.
-- The **Blekinge Institute of Technology** research group for the collaboration on heterogeneous Federated Learning and the Flower framework integration.
+- **Prof. Davide Berardi** — Universitas Mercatorum, for the collaboration on the foundational Federated Learning research.
+- **Prof. Alberto Eugenio Tozzi** — Ospedale Pediatrico Bambino Gesù, Preventive and Predictive Diseases Research Unit, for the mentorship during the institutional research internship.
+- **Prof. Sadi Alawadi** — Blekinge Institute of Technology (Sweden), for the mentorship during the international research internship.
 - All the Italian hospitals that participated in the Federated Learning adoption questionnaire.
 
 ---
