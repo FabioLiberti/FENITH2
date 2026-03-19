@@ -1,0 +1,16 @@
+{
+  "ignorePatterns": [
+    {
+      "pattern": "^https://img.shields.io"
+    },
+    {
+      "pattern": "^https://github.com/FabioLiberti/tesi_fl_2025"
+    },
+    {
+      "pattern": "^https://github.com/FabioLiberti/HFEDL_Project"
+    }
+  ],
+  "timeout": "10s",
+  "retryOn429": true,
+  "aliveStatusCodes": [200, 301, 302]
+}

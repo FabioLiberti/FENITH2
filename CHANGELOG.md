@@ -1,0 +1,156 @@
+# Changelog
+
+All notable changes to the FENITH meta-repository are documented here.
+
+Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and [Semantic Versioning](https://semver.org/).
+
+---
+
+## [v0.4.0] — 2026-03-19
+
+### Added
+- Images moved to `assets/` directory (best practice)
+- Institutions & Collaborations section (Universitas Mercatorum, OPBG, BTH)
+- Acknowledgements section (supervisors, institutions, hospital participants)
+- GitHub Actions link checker workflow (weekly + on push)
+- GitHub Pages enabled
+- CHANGELOG.md
+- Submodule branch tracking (`branch = main`)
+
+### Changed
+- `docs/papers/INDEX.md` enriched with titles, status, DOI
+- Pinned repos on GitHub profile
+
+---
+
+## [v0.3.2] — 2026-03-19
+
+### Fixed
+- BTH internship end date corrected to 09/2026
+
+### Changed
+- Images stacked vertically with detailed collapsible legends (Fig. 1, Fig. 2)
+
+---
+
+## [v0.3.1] — 2026-03-19
+
+### Added
+- FL Algorithms section — 38 unique algorithms catalogued across 3 platforms (collapsible)
+- Internships in Gantt timeline (OPBG 18mo, BTH 18mo) in red
+
+### Changed
+- At a Glance updated to 38 algorithms
+
+---
+
+## [v0.3.0] — 2026-03-19
+
+### Added
+- Dual title (EN primary, IT collapsible)
+- Research Questions (4 RQ with cluster mapping, EN + IT)
+- At a Glance metrics section
+- Mermaid Gantt timeline (2023–2026)
+- Datasets overview — 35 datasets across 3 platforms (collapsible)
+
+---
+
+## [v0.2.2] — 2026-03-19
+
+### Changed
+- Publications status updated (P-IS, P-CR, P-C2)
+- Keywords refined
+
+---
+
+## [v0.2.1] — 2026-03-19
+
+### Added
+- Image captions for Diagram and Infographic
+- Keywords section (16 research topics)
+
+---
+
+## [v0.2.0] — 2026-03-19
+
+### Added
+- Badges (license, submodules, papers, last commit)
+- Publications table with full titles, venues, status, DOI
+- CITATION.cff with ORCID and foundational paper BibTeX
+- Author section (ORCID, Google Scholar, ResearchGate, website)
+- Architecture diagram (Mermaid) in `docs/architecture.md`
+- Papers INDEX.md
+- CONTRIBUTING.md
+- FENITH Diagram and Infographic in README
+
+### Fixed
+- Clone URL corrected (FENITH → FENITH2)
+
+---
+
+## [v0.1.7] — 2026-03-19
+
+### Added
+- Centered FENITH logo and link to www.fenith.org in README header
+
+---
+
+## [v0.1.6] — 2026-03-19
+
+### Changed
+- CIDE2 grouped with CIDE in Applications table
+
+---
+
+## [v0.1.5] — 2026-03-19
+
+### Added
+- DHFLPL2 (systematized) and DHFLPL (original/legacy) submodules in Foundations
+- Seminal paper P-M MDPI 2024 (21 citations) linked
+
+---
+
+## [v0.1.4] — 2026-03-19
+
+### Changed
+- CIDE description refined: Federated Learning Health Data Platform
+
+---
+
+## [v0.1.3] — 2026-03-19
+
+### Added
+- CIDE2 submodule (XFL deepfake detection)
+- P-C2 publication linked to CIDE2
+
+### Changed
+- CIDE description updated to reflect actual paper content
+
+---
+
+## [v0.1.2] — 2026-03-19
+
+### Changed
+- Reordered Applications table for consistency
+
+---
+
+## [v0.1.1] — 2026-03-19
+
+### Changed
+- P-M linked to Foundations with citations count
+- P-C2 decoupled from CIDE, marked as TBD
+
+---
+
+## [v0.1.0] — 2026-03-19
+
+### Added
+- Initial meta-repository structure
+- 13 Git submodules (platforms, applications, governance, foundations)
+- README.md with project overview and publication mapping
+- LICENSE (CC BY-NC-SA 4.0)
+- .gitignore
+- `docs/thesis/` — 5 thesis documents
+- `docs/papers/` — 11 paper PDFs
+- `docs/questionnaire/` — 15 survey materials

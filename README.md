@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.fenith.org/">
-    <img src="fenith-logo.png" alt="FENITH" width="300">
+    <img src="assets/fenith-logo.png" alt="FENITH" width="300">
   </a>
 </p>
 
@@ -61,7 +61,7 @@ This repository serves as the central hub for the PhD research project on **Fede
 > See the full [architecture diagram](docs/architecture.md) for a visual overview.
 
 <p align="center">
-  <img src="FENITH_Diagram.png" alt="FENITH Diagram" width="85%">
+  <img src="assets/FENITH_Diagram.png" alt="FENITH Diagram" width="85%">
 </p>
 
 <details>
@@ -82,7 +82,7 @@ Arrows trace the lineage from foundational work through platforms and applicatio
 ---
 
 <p align="center">
-  <img src="FENITH_Infographic.png" alt="FENITH Infographic" width="85%">
+  <img src="assets/FENITH_Infographic.png" alt="FENITH Infographic" width="85%">
 </p>
 
 <details>
@@ -408,8 +408,35 @@ PhD Candidate — Universitas Mercatorum, Rome, Italy
 
 ---
 
+## Institutions & Collaborations
+
+This research has been conducted in collaboration with the following institutions:
+
+| Institution | Role | Period |
+|---|---|---|
+| **Universitas Mercatorum** — Rome, Italy | PhD Program — Home University | 2023 – present |
+| **Ospedale Pediatrico Bambino Gesù (OPBG)** — Rome, Italy | Research Internship — Clinical FL platforms and healthcare datasets | Oct 2023 – Mar 2025 |
+| **Blekinge Institute of Technology (BTH)** — Karlskrona, Sweden | Research Internship — Heterogeneous FL and international collaboration | Apr 2025 – Sep 2026 |
+
+---
+
+## Acknowledgements
+
+This PhD research was carried out under the supervision of:
+
+- **[Supervisor Name]** — Universitas Mercatorum *(thesis supervisor)*
+- **[Co-supervisor Name]** — [Institution] *(co-supervisor)*
+
+The author gratefully acknowledges:
+
+- The **Ospedale Pediatrico Bambino Gesù** research team for providing access to clinical datasets and domain expertise in pediatric healthcare AI.
+- The **Blekinge Institute of Technology** research group for the collaboration on heterogeneous Federated Learning and the Flower framework integration.
+- All the Italian hospitals that participated in the Federated Learning adoption questionnaire.
+
+---
+
 ## Keywords
 
-`federated-learning` · `european-health-data-space` · `ehds` · `privacy-preserving` · `differential-privacy` · `secure-aggregation` · `digital-healthcare-governance` · `heterogeneous-environments` · `dynamic-environments` ·`omop-OHDSI` · `hl7-fhir` · `data-mesh` · `industry-5-0`
+`federated-learning` · `european-health-data-space` · `ehds` · `privacy-preserving` · `differential-privacy` · `secure-aggregation` · `digital-healthcare-governance` · `heterogeneous-environments` · `dynamic-environments` · `omop-OHDSI` · `hl7-fhir` · `data-mesh` · `industry-5-0`
 
 ---

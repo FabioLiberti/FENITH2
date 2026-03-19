@@ -1,48 +1,64 @@
 [submodule "platforms/flopbg"]
 	path = platforms/flopbg
 	url = https://github.com/FabioLiberti/flopbg.git
+	branch = main
 [submodule "platforms/BLEKFL2"]
 	path = platforms/BLEKFL2
 	url = https://github.com/FabioLiberti/BLEKFL2.git
+	branch = main
 [submodule "platforms/FL-EHDS-FLICS2026"]
 	path = platforms/FL-EHDS-FLICS2026
 	url = https://github.com/FabioLiberti/FL-EHDS-FLICS2026.git
+	branch = main
 [submodule "applications/CRISTAIN2025"]
 	path = applications/CRISTAIN2025
 	url = https://github.com/FabioLiberti/CRISTAIN2025.git
+	branch = main
 [submodule "applications/FedHR5.0"]
 	path = applications/FedHR5.0
 	url = https://github.com/FabioLiberti/FedHR5.0.git
+	branch = main
 [submodule "applications/Questionnaire_FL"]
 	path = applications/Questionnaire_FL
 	url = https://github.com/FabioLiberti/Questionnaire_FL.git
+	branch = main
 [submodule "governance/AI-DIGOSA"]
 	path = governance/AI-DIGOSA
 	url = https://github.com/FabioLiberti/AI-DIGOSA.git
+	branch = main
 [submodule "governance/icsis2026"]
 	path = governance/icsis2026
 	url = https://github.com/FabioLiberti/icsis2026.git
+	branch = main
 [submodule "governance/ICID2026"]
 	path = governance/ICID2026
 	url = https://github.com/FabioLiberti/ICID2026.git
+	branch = main
 [submodule "foundations/Heterogeneous_Federated_Learning"]
 	path = foundations/Heterogeneous_Federated_Learning
 	url = https://github.com/FabioLiberti/Heterogeneous_Federated_Learning.git
+	branch = main
 [submodule "foundations/tesi_fl_2025"]
 	path = foundations/tesi_fl_2025
 	url = https://github.com/FabioLiberti/tesi_fl_2025.git
+	branch = main
 [submodule "foundations/HFEDL_Project"]
 	path = foundations/HFEDL_Project
 	url = https://github.com/FabioLiberti/HFEDL_Project.git
+	branch = main
 [submodule "applications/CIDE"]
 	path = applications/CIDE
 	url = https://github.com/FabioLiberti/CIDE.git
+	branch = main
 [submodule "applications/CIDE2"]
 	path = applications/CIDE2
 	url = https://github.com/FabioLiberti/CIDE2.git
+	branch = main
 [submodule "foundations/DHFLPL2"]
 	path = foundations/DHFLPL2
 	url = https://github.com/FabioLiberti/DHFLPL2.git
+	branch = main
 [submodule "foundations/DHFLPL"]
 	path = foundations/DHFLPL
 	url = https://github.com/FabioLiberti/DHFLPL.git
+	branch = main
