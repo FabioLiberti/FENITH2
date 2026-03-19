@@ -6,6 +6,32 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and [Sem
 
 ---
 
+## [v0.5.0] — 2026-03-19
+
+### Added
+- RQ column (Research Questions mapping) in all 4 cluster tables
+- RQ annotations in `docs/architecture.md` Mermaid diagram
+- DOI badge and CI badge in README header
+- `_config.yml` for Jekyll GitHub Pages (Cayman theme)
+- `git submodule update --remote --merge` command in Getting Started
+
+### Changed
+- Repository Structure tree updated (added `assets/`, `.github/`, `CITATION.cff`, etc.)
+- Architecture diagram rewritten with all 16 repos, RQ tags, and color-coded clusters
+
+### Removed
+- Internal research Excel file removed from git tracking (added to `.gitignore`)
+
+---
+
+## [v0.4.1] — 2026-03-19
+
+### Changed
+- Acknowledgements section refined (English, role-based descriptions)
+- Supervisor and tutor titles corrected
+
+---
+
 ## [v0.4.0] — 2026-03-19
 
 ### Added

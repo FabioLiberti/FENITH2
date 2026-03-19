@@ -48,3 +48,6 @@ env/
 .env
 .env.*
 credentials.json
+
+# Internal research documents (not for public repo)
+**/7_Sintesi_Integrata_Dottorato_Liberti.xlsx

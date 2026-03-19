@@ -25,6 +25,8 @@
   <img src="https://img.shields.io/badge/Submodules-16-blue" alt="Submodules">
   <img src="https://img.shields.io/badge/Papers-10-green" alt="Papers">
   <img src="https://img.shields.io/github/last-commit/FabioLiberti/FENITH2" alt="Last Commit">
+  <a href="https://doi.org/10.3390/app14188490"><img src="https://img.shields.io/badge/DOI-10.3390%2Fapp14188490-blue" alt="DOI"></a>
+  <a href="https://github.com/FabioLiberti/FENITH2/actions/workflows/links.yml"><img src="https://github.com/FabioLiberti/FENITH2/actions/workflows/links.yml/badge.svg" alt="Link Checker"></a>
 </p>
 
 ---
@@ -305,53 +307,60 @@ gantt
 
 ```
 FENITH/
-├── platforms/           # Experimental FL platforms
-├── applications/        # Domain-specific FL applications
-├── governance/          # Governance, policy, and ethical frameworks
-├── foundations/         # Foundational research and educational materials
-└── docs/
-    ├── thesis/          # Thesis documents and outlines
-    ├── papers/          # Published and submitted papers
-    └── questionnaire/   # Survey research materials
+├── assets/              # Logo, diagrams, infographics
+├── platforms/           # Experimental FL platforms (submodules)
+├── applications/        # Domain-specific FL applications (submodules)
+├── governance/          # Governance, policy, and ethical frameworks (submodules)
+├── foundations/         # Foundational research and educational materials (submodules)
+├── docs/
+│   ├── thesis/          # Thesis documents and outlines
+│   ├── papers/          # Published and submitted papers (see INDEX.md)
+│   ├── questionnaire/   # Survey research materials
+│   └── architecture.md  # Mermaid architecture diagram
+├── .github/workflows/   # CI: link checker
+├── CITATION.cff         # BibTeX citation for the foundational paper
+├── CONTRIBUTING.md      # Contribution guidelines
+├── CHANGELOG.md         # Version history
+└── LICENSE              # CC BY-NC-SA 4.0
 ```
 
 ---
 
 ## Platforms
 
-| Repository | Description | Stack |
-|---|---|---|
-| [flopbg](https://github.com/FabioLiberti/flopbg) | FL research platform — Universitas Mercatorum & Ospedale Pediatrico Bambino Gesù. 12 FL algorithms, 11 datasets (5 benchmark + 6 clinical). | Python, Flask, TensorFlow, React |
-| [BLEKFL2](https://github.com/FabioLiberti/BLEKFL2) | FL research platform — Blekinge Institute of Technology (Sweden) & Universitas Mercatorum. 17+ FL algorithms, Flower framework. | Python, Flask, PyTorch, Flower |
-| [FL-EHDS-FLICS2026](https://github.com/FabioLiberti/FL-EHDS-FLICS2026) | FL + EHDS governance framework. 17 FL algorithms, 19 healthcare datasets, differential privacy, secure aggregation. | Python |
+| Repository | Description | Stack | RQ |
+|---|---|---|---|
+| [flopbg](https://github.com/FabioLiberti/flopbg) | FL research platform — Universitas Mercatorum & Ospedale Pediatrico Bambino Gesù. 12 FL algorithms, 11 datasets (5 benchmark + 6 clinical). | Python, Flask, TensorFlow, React | RQ1, RQ3 |
+| [BLEKFL2](https://github.com/FabioLiberti/BLEKFL2) | FL research platform — Blekinge Institute of Technology (Sweden) & Universitas Mercatorum. 17+ FL algorithms, Flower framework. | Python, Flask, PyTorch, Flower | RQ1, RQ4 |
+| [FL-EHDS-FLICS2026](https://github.com/FabioLiberti/FL-EHDS-FLICS2026) | FL + EHDS governance framework. 17 FL algorithms, 19 healthcare datasets, differential privacy, secure aggregation. | Python | RQ1-2-3-4 |
 
 ## Applications
 
-| Repository | Description | Domain |
-|---|---|---|
-| [Questionnaire_FL](https://github.com/FabioLiberti/Questionnaire_FL) | Research questionnaire on FL adoption in Italian hospitals. 34 questions, systematic literature review. | Healthcare Adoption |
-| [CIDE](https://github.com/FabioLiberti/CIDE) | Federated Learning Health Data Platform - OMOP/FHIR business models for European digital health research networks (EHDS). | Digital Health / Business Models |
-| [CIDE2](https://github.com/FabioLiberti/CIDE2) | Explainable Federated Learning for secure telemedicine — privacy-preserving deepfake detection in digital health platforms. | Digital Health / XAI |
-| [FedHR5.0](https://github.com/FabioLiberti/FedHR5.0) | Privacy-preserving Federated Learning framework for Human Resource Management in Industry 5.0. | HR / Industry 5.0 |
-| [CRISTAIN2025](https://github.com/FabioLiberti/CRISTAIN2025) | FA-FedAvg — Forensic-Aware Federated Averaging for law enforcement inter-agency collaboration. | Criminal Justice |
+| Repository | Description | Domain | RQ |
+|---|---|---|---|
+| [Questionnaire_FL](https://github.com/FabioLiberti/Questionnaire_FL) | Research questionnaire on FL adoption in Italian hospitals. 34 questions, systematic literature review. | Healthcare Adoption | RQ3 |
+| [CIDE](https://github.com/FabioLiberti/CIDE) | Federated Learning Health Data Platform - OMOP/FHIR business models for European digital health research networks (EHDS). | Digital Health / Business Models | RQ2, RQ4 |
+| [CIDE2](https://github.com/FabioLiberti/CIDE2) | Explainable Federated Learning for secure telemedicine — privacy-preserving deepfake detection in digital health platforms. | Digital Health / XAI | RQ1, RQ2 |
+| [FedHR5.0](https://github.com/FabioLiberti/FedHR5.0) | Privacy-preserving Federated Learning framework for Human Resource Management in Industry 5.0. | HR / Industry 5.0 | — |
+| [CRISTAIN2025](https://github.com/FabioLiberti/CRISTAIN2025) | FA-FedAvg — Forensic-Aware Federated Averaging for law enforcement inter-agency collaboration. | Criminal Justice | — |
 
 ## Governance
 
-| Repository | Description | Focus |
-|---|---|---|
-| [AI-DIGOSA](https://github.com/FabioLiberti/AI-DIGOSA) | Multidimensional framework analyzing tensions between norms, ethics, and innovation in distributed AI healthcare. | Ethics & Regulation |
-| [icsis2026](https://github.com/FabioLiberti/icsis2026) | FL as policy data infrastructure for territorial healthcare planning in aging European regions (EHDS). | Health Policy |
-| [ICID2026](https://github.com/FabioLiberti/ICID2026) | Three-layered reference architecture for deploying FL within EHDS — IDSA, Data Mesh, hierarchical FL. | Architecture & Standards |
+| Repository | Description | Focus | RQ |
+|---|---|---|---|
+| [AI-DIGOSA](https://github.com/FabioLiberti/AI-DIGOSA) | Multidimensional framework analyzing tensions between norms, ethics, and innovation in distributed AI healthcare. | Ethics & Regulation | RQ2, RQ4 |
+| [icsis2026](https://github.com/FabioLiberti/icsis2026) | FL as policy data infrastructure for territorial healthcare planning in aging European regions (EHDS). | Health Policy | RQ3, RQ4 |
+| [ICID2026](https://github.com/FabioLiberti/ICID2026) | Three-layered reference architecture for deploying FL within EHDS — IDSA, Data Mesh, hierarchical FL. | Architecture & Standards | RQ1, RQ4 |
 
 ## Foundations
 
-| Repository | Description | Type |
-|---|---|---|
-| [DHFLPL2](https://github.com/FabioLiberti/DHFLPL2) | Foundational paper — MDPI Applied Sciences 2024 (21 citations). Systematized evolution of the FL research platform. | Seminal · P-M |
-| [DHFLPL](https://github.com/FabioLiberti/DHFLPL) | Original repo referenced in the published paper (v1). | Legacy · P-M |
-| [Heterogeneous_Federated_Learning](https://github.com/FabioLiberti/Heterogeneous_Federated_Learning) | Curated collection of educational materials on heterogeneous FL (2020+). | Educational |
-| tesi_fl_2025 | Thesis core repository. | Private |
-| HFEDL_Project | Heterogeneous FL research project. | Private |
+| Repository | Description | Type | RQ |
+|---|---|---|---|
+| [DHFLPL2](https://github.com/FabioLiberti/DHFLPL2) | Foundational paper — MDPI Applied Sciences 2024 (21 citations). Systematized evolution of the FL research platform. | Seminal · P-M | RQ1, RQ3 |
+| [DHFLPL](https://github.com/FabioLiberti/DHFLPL) | Original repo referenced in the published paper (v1). | Legacy · P-M | RQ1, RQ3 |
+| [Heterogeneous_Federated_Learning](https://github.com/FabioLiberti/Heterogeneous_Federated_Learning) | Curated collection of educational materials on heterogeneous FL (2020+). | Educational | RQ1 |
+| tesi_fl_2025 | Thesis core repository. | Private | All |
+| HFEDL_Project | Heterogeneous FL research project. | Private | RQ1 |
 
 ---
 
@@ -382,6 +391,9 @@ git clone --recurse-submodules https://github.com/FabioLiberti/FENITH2.git
 
 # If already cloned, initialize submodules
 git submodule update --init --recursive
+
+# Update all submodules to their latest commit
+git submodule update --remote --merge
 ```
 
 > **Note:** Some submodules (`tesi_fl_2025`, `HFEDL_Project`) are private repositories. Access requires appropriate GitHub permissions.
