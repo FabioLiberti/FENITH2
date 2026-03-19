@@ -6,6 +6,70 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and [Sem
 
 ---
 
+## [v0.7.0] — 2026-03-19
+
+### Added
+- `index.md` for GitHub Pages (Cayman theme landing page)
+- Table of Contents in README
+- GitHub stars and forks badges
+- Missing GitHub Releases for v0.2.2, v0.3.1, v0.3.2
+
+### Changed
+- Publication statuses: P-IS → Accepted, P-CR → Accepted, P-C2 → Presented
+- At a Glance: "2 pending" → "2 accepted"
+- Keyword case fixed (`omop-OHDSI` → `omop-ohdsi`)
+- Repo description changed to English
+- `_config.yml` enriched with baseurl and show_downloads
+- Gantt timeline: thesis writing ends 2026-05, defense TBD
+- CHANGELOG.md brought up to date (v0.5.1–v0.6.2)
+
+---
+
+## [v0.6.2] — 2026-03-19
+
+### Fixed
+- Link checker: added doi.org, scholar.google.com, researchgate.net to ignore list (403 on bot requests)
+
+---
+
+## [v0.6.1] — 2026-03-19
+
+### Changed
+- `docs/papers/INDEX.md`: Title column moved before File, File in `<small>` text
+- Citation badge: static Google Scholar count (21) replacing Semantic Scholar
+
+---
+
+## [v0.6.0] — 2026-03-19
+
+### Added
+- SECURITY.md with responsible disclosure policy
+- `docs/README.md` documentation guide
+- Hover tooltips on Cluster column in RQ tables (EN + IT)
+- Thesis delivery milestone (2026-05-31) in Gantt timeline
+
+### Changed
+- CONTRIBUTING.md: added How to Cite section and RQ reference in issues
+- Repository structure tree updated (SECURITY.md, docs/README.md)
+- 10 new GitHub Topics synced with README keywords
+- Repository homepage set to fenith.org
+
+---
+
+## [v0.5.2] — 2026-03-19
+
+### Changed
+- RQ tooltips switched from `<abbr>` to markdown link titles (GitHub-compatible)
+
+---
+
+## [v0.5.1] — 2026-03-19
+
+### Added
+- Hover tooltips on RQ references in cluster tables (`<abbr>` tags — later replaced in v0.5.2)
+
+---
+
 ## [v0.5.0] — 2026-03-19
 
 ### Added

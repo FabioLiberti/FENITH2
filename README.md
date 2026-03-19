@@ -23,12 +23,34 @@
 <p align="center">
   <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg" alt="License"></a>
   <img src="https://img.shields.io/badge/Submodules-16-blue" alt="Submodules">
+  <img src="https://img.shields.io/github/stars/FabioLiberti/FENITH2?style=social" alt="Stars">
+  <img src="https://img.shields.io/github/forks/FabioLiberti/FENITH2?style=social" alt="Forks">
   <img src="https://img.shields.io/badge/Papers-10-green" alt="Papers">
   <img src="https://img.shields.io/github/last-commit/FabioLiberti/FENITH2" alt="Last Commit">
   <a href="https://doi.org/10.3390/app14188490"><img src="https://img.shields.io/badge/DOI-10.3390%2Fapp14188490-blue" alt="DOI"></a>
   <a href="https://scholar.google.com/citations?user=ce_iUyEAAAAJ&hl=it"><img src="https://img.shields.io/badge/Citations-21-orange" alt="Citations"></a>
   <a href="https://github.com/FabioLiberti/FENITH2/actions/workflows/links.yml"><img src="https://github.com/FabioLiberti/FENITH2/actions/workflows/links.yml/badge.svg" alt="Link Checker"></a>
 </p>
+
+---
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Research Questions](#research-questions)
+- [At a Glance](#at-a-glance)
+- [Timeline](#timeline)
+- [Datasets](#datasets)
+- [FL Algorithms](#fl-algorithms)
+- [Repository Structure](#repository-structure)
+- [Platforms](#platforms) · [Applications](#applications) · [Governance](#governance) · [Foundations](#foundations)
+- [Publications](#publications)
+- [Getting Started](#getting-started)
+- [License](#license)
+- [Author](#author)
+- [Institutions & Collaborations](#institutions--collaborations)
+- [Acknowledgements](#acknowledgements)
+- [Keywords](#keywords)
 
 ---
 
@@ -115,7 +137,7 @@ Visual summary of the FENITH meta-repository, designed as a single-page overview
 | **FL Algorithms** | 38 unique across 3 platforms (FedAvg, FedProx, SCAFFOLD, FedNova, MOON, ...) |
 | **Datasets** | 35 total — 5 benchmark, 6 clinical imaging, 19 healthcare (+ 5 shared) |
 | **Experiments** | 6,000+ (FL-EHDS-FLICS2026 alone) |
-| **Publications** | 10 papers — 1 published (21 citations), 3 presented, 2 pending, 4 submitted |
+| **Publications** | 10 papers — 1 published (21 citations), 3 presented, 2 accepted, 4 submitted |
 | **Conferences** | MDPI, ISM, CRISTAIN, CIDE, ITAIS, FLICS, ICSIS, ICID, IFKAD |
 | **Submodules** | 16 repositories (14 public + 2 private) |
 | **Frameworks** | TensorFlow, PyTorch, Flower, Flask, React |
@@ -161,8 +183,9 @@ gantt
 
     section Thesis
     FENITH meta-repo                 :active, 2026-03, 2026-09
-    PhD Thesis writing               :active, 2026-03, 2026-12
+    PhD Thesis writing               :active, 2026-03, 2026-05
     Thesis delivery                  :milestone, 2026-05-31, 0d
+    Thesis defense                   :active, 2026-06, 2026-12
 ```
 
 ---
@@ -373,10 +396,10 @@ FENITH/
 | Code | Title | Venue | Year | Status | Repository |
 |---|---|---|---|---|---|
 | P-M | Federated Learning in Dynamic and Heterogeneous Environments: Advantages, Performances, and Privacy Problems | MDPI Applied Sciences · [DOI](https://doi.org/10.3390/app14188490) | 2024 | Published (21 cit.) | [DHFLPL2](https://github.com/FabioLiberti/DHFLPL2) · ([v1](https://github.com/FabioLiberti/DHFLPL)) |
-| P-IS | FedHR5.0: Privacy-Preserving HR Management in Industry 5.0 | ISM 2025 — Univ. of Malta | 2025 | -- | [FedHR5.0](https://github.com/FabioLiberti/FedHR5.0) |
-| P-CR | FA-FedAvg: Forensic-Aware Federated Averaging for Law Enforcement | CRISTAIN 2025 — CHItaly | 2025 | -- | [CRISTAIN2025](https://github.com/FabioLiberti/CRISTAIN2025) |
+| P-IS | FedHR5.0: Privacy-Preserving HR Management in Industry 5.0 | ISM 2025 — Univ. of Malta | 2025 | Accepted | [FedHR5.0](https://github.com/FabioLiberti/FedHR5.0) |
+| P-CR | FA-FedAvg: Forensic-Aware Federated Averaging for Law Enforcement | CRISTAIN 2025 — CHItaly | 2025 | Accepted | [CRISTAIN2025](https://github.com/FabioLiberti/CRISTAIN2025) |
 | P-C1 | Transforming Clinical Silos into Economic Assets: Business Models for European Digital Health Research Networks | CIDE 2025 — Ploiesti | 2025 | Presented | [CIDE](https://github.com/FabioLiberti/CIDE) |
-| P-C2 | Explainable Federated Learning for Secure Telemedicine: Privacy-Preserving Deepfake Detection | CIDE 2025 — Ploiesti | 2025 | -- | [CIDE2](https://github.com/FabioLiberti/CIDE2) |
+| P-C2 | Explainable Federated Learning for Secure Telemedicine: Privacy-Preserving Deepfake Detection | CIDE 2025 — Ploiesti | 2025 | Presented | [CIDE2](https://github.com/FabioLiberti/CIDE2) |
 | P-IT | AI Distribuita e Governance Sanitaria: Analisi Multidimensionale delle Tensioni tra Norme, Etica e Innovazione | ITAIS 2025 | 2025 | Presented | [AI-DIGOSA](https://github.com/FabioLiberti/AI-DIGOSA) |
 | FLICS | FL + EHDS Governance Framework: Differential Privacy and Secure Aggregation | FLICS 2026 — Valencia · IEEE | 2026 | Submitted | [FL-EHDS-FLICS2026](https://github.com/FabioLiberti/FL-EHDS-FLICS2026) |
 | ICSIS | FL as Policy Data Infrastructure for Territorial Healthcare Planning | ICSIS 2026 — Valencia | 2026 | Submitted | [icsis2026](https://github.com/FabioLiberti/icsis2026) |
@@ -454,6 +477,6 @@ The author gratefully acknowledges the contributions of:
 
 ## Keywords
 
-`federated-learning` · `european-health-data-space` · `ehds` · `privacy-preserving` · `differential-privacy` · `secure-aggregation` · `digital-healthcare-governance` · `heterogeneous-environments` · `dynamic-environments` · `omop-OHDSI` · `hl7-fhir` · `data-mesh` · `industry-5-0`
+`federated-learning` · `european-health-data-space` · `ehds` · `privacy-preserving` · `differential-privacy` · `secure-aggregation` · `digital-healthcare-governance` · `heterogeneous-environments` · `dynamic-environments` · `omop-ohdsi` · `hl7-fhir` · `data-mesh` · `industry-5-0`
 
 ---
