@@ -15,11 +15,26 @@
   <a href="https://www.fenith.org/">www.fenith.org</a>
 </p>
 
+<p align="center">
+  <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg" alt="License"></a>
+  <img src="https://img.shields.io/badge/Submodules-16-blue" alt="Submodules">
+  <img src="https://img.shields.io/badge/Papers-10-green" alt="Papers">
+  <img src="https://img.shields.io/github/last-commit/FabioLiberti/FENITH2" alt="Last Commit">
+</p>
+
 ---
 
 ## Overview
 
 This repository serves as the central hub for the PhD research project on **Federated Learning (FL)** applied to the **European Health Data Space (EHDS)**. It aggregates all research artifacts — experimental platforms, domain-specific applications, governance frameworks, foundational studies, published papers, and thesis documents — into a single, structured meta-repository.
+
+> See the full [architecture diagram](docs/architecture.md) for a visual overview.
+
+<p align="center">
+  <img src="FENITH_Diagram.png" alt="FENITH Diagram" width="48%">
+  &nbsp;
+  <img src="FENITH_Infographic.png" alt="FENITH Infographic" width="48%">
+</p>
 
 ---
 
@@ -79,18 +94,18 @@ FENITH/
 
 ## Publications
 
-| Code | Title / Conference | Year | Repository |
-|---|---|---|---|
-| P-M | MDPI Applied Sciences (21 citations) | 2024 | [DHFLPL2](https://github.com/FabioLiberti/DHFLPL2) · ([v1](https://github.com/FabioLiberti/DHFLPL)) |
-| P-IS | ISM 2025 | 2025 | [FedHR5.0](https://github.com/FabioLiberti/FedHR5.0) |
-| P-CR | CRISTAIN 2025 | 2025 | [CRISTAIN2025](https://github.com/FabioLiberti/CRISTAIN2025) |
-| P-C1 | CIDE 2025 (FL) | 2025 | [CIDE](https://github.com/FabioLiberti/CIDE) |
-| P-C2 | CIDE 2025 (FL + XAI DeepFake) | 2025 | [CIDE2](https://github.com/FabioLiberti/CIDE2) |
-| P-IT | ITAIS 2025 | 2025 | [AI-DIGOSA](https://github.com/FabioLiberti/AI-DIGOSA) |
-| IFKAD | IFKAD 2026 (FedHR5.0) | 2026 | *Repo TBD* |
-| ICID | ICID 2026 | 2026 | [ICID2026](https://github.com/FabioLiberti/ICID2026) |
-| ICSIS | ICSIS 2026 | 2026 | [icsis2026](https://github.com/FabioLiberti/icsis2026) |
-| FLICS | FLICS 2026 (FL + EHDS) | 2026 | [FL-EHDS-FLICS2026](https://github.com/FabioLiberti/FL-EHDS-FLICS2026) |
+| Code | Title | Venue | Year | Status | Repository |
+|---|---|---|---|---|---|
+| P-M | Federated Learning in Dynamic and Heterogeneous Environments: Advantages, Performances, and Privacy Problems | MDPI Applied Sciences · [DOI](https://doi.org/10.3390/app14188490) | 2024 | Published (21 cit.) | [DHFLPL2](https://github.com/FabioLiberti/DHFLPL2) · ([v1](https://github.com/FabioLiberti/DHFLPL)) |
+| P-IS | FedHR5.0: Privacy-Preserving HR Management in Industry 5.0 | ISM 2025 — Univ. of Malta | 2025 | Presented | [FedHR5.0](https://github.com/FabioLiberti/FedHR5.0) |
+| P-CR | FA-FedAvg: Forensic-Aware Federated Averaging for Law Enforcement | CRISTAIN 2025 — CHItaly | 2025 | Presented | [CRISTAIN2025](https://github.com/FabioLiberti/CRISTAIN2025) |
+| P-C1 | Transforming Clinical Silos into Economic Assets: Business Models for European Digital Health Research Networks | CIDE 2025 — Ploiesti | 2025 | Presented | [CIDE](https://github.com/FabioLiberti/CIDE) |
+| P-C2 | Explainable Federated Learning for Secure Telemedicine: Privacy-Preserving Deepfake Detection | CIDE 2025 — Ploiesti | 2025 | Presented | [CIDE2](https://github.com/FabioLiberti/CIDE2) |
+| P-IT | AI Distribuita e Governance Sanitaria: Analisi Multidimensionale delle Tensioni tra Norme, Etica e Innovazione | ITAIS 2025 | 2025 | Presented | [AI-DIGOSA](https://github.com/FabioLiberti/AI-DIGOSA) |
+| IFKAD | FedHR5.0: Federated Learning for Knowledge Asset Dynamics in Industry 5.0 | IFKAD 2026 — Budapest | 2026 | Submitted | *Repo TBD* |
+| ICID | Three-Layered Reference Architecture for FL within EHDS | ICID 2026 — Ulaanbaatar · Springer | 2026 | Submitted | [ICID2026](https://github.com/FabioLiberti/ICID2026) |
+| ICSIS | FL as Policy Data Infrastructure for Territorial Healthcare Planning | ICSIS 2026 — Valencia | 2026 | Submitted | [icsis2026](https://github.com/FabioLiberti/icsis2026) |
+| FLICS | FL + EHDS Governance Framework: Differential Privacy and Secure Aggregation | FLICS 2026 — Valencia · IEEE | 2026 | Submitted | [FL-EHDS-FLICS2026](https://github.com/FabioLiberti/FL-EHDS-FLICS2026) |
 
 ---
 
@@ -100,7 +115,7 @@ This meta-repository uses **Git submodules** to link all component repositories.
 
 ```bash
 # Clone with all submodules
-git clone --recurse-submodules https://github.com/FabioLiberti/FENITH.git
+git clone --recurse-submodules https://github.com/FabioLiberti/FENITH2.git
 
 # If already cloned, initialize submodules
 git submodule update --init --recursive
@@ -122,5 +137,10 @@ Individual submodules may have their own licenses — refer to each repository f
 
 **Fabio Liberti**
 PhD Candidate — Universitas Mercatorum, Rome, Italy
+
+[![Website](https://img.shields.io/badge/Web-fabioliberti.com-blue)](https://www.fabioliberti.com/)
+[![ORCID](https://img.shields.io/badge/ORCID-0000--0003--3019--5411-A6CE39)](https://orcid.org/0000-0003-3019-5411)
+[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Fabio_Liberti-4285F4)](https://scholar.google.com/citations?user=ce_iUyEAAAAJ&hl=it)
+[![ResearchGate](https://img.shields.io/badge/ResearchGate-Fabio_Liberti-00CCBB)](https://www.researchgate.net/profile/Fabio-Liberti)
 
 ---

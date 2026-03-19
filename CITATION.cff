@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+title: "FENITH — Federated Learning in Ambienti Dinamici ed Eterogenei per la Sanità Digitale Europea"
+message: "If you use this work, please cite the foundational paper below."
+type: software
+authors:
+  - family-names: Liberti
+    given-names: Fabio
+    affiliation: "Universitas Mercatorum, Rome, Italy"
+    orcid: "https://orcid.org/0000-0003-3019-5411"
+repository-code: "https://github.com/FabioLiberti/FENITH2"
+url: "https://www.fenith.org/"
+license: CC-BY-NC-SA-4.0
+preferred-citation:
+  type: article
+  title: "Federated Learning in Dynamic and Heterogeneous Environments: Advantages, Performances, and Privacy Problems"
+  authors:
+    - family-names: Liberti
+      given-names: Fabio
+    - family-names: Berardi
+      given-names: Davide
+    - family-names: Martini
+      given-names: Barbara
+  journal: "Applied Sciences"
+  publisher:
+    name: "MDPI"
+  volume: 14
+  issue: 18
+  start: 8490
+  year: 2024
+  doi: "10.3390/app14188490"
+  url: "https://doi.org/10.3390/app14188490"
