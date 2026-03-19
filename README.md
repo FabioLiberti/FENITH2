@@ -1,8 +1,19 @@
-# FENITH
+<p align="center">
+  <a href="https://www.fenith.org/">
+    <img src="fenith-logo.png" alt="FENITH" width="300">
+  </a>
+</p>
 
-**Federated Learning in Ambienti Dinamici ed Eterogenei per la Sanità Digitale Europea: Dal Framework Teorico all'Implementazione negli Ospedali Italiani**
+<h1 align="center">FENITH</h1>
 
-> PhD Thesis — Fabio Liberti
+<p align="center">
+  <strong>Federated Learning in Ambienti Dinamici ed Eterogenei per la Sanità Digitale Europea:<br>Dal Framework Teorico all'Implementazione negli Ospedali Italiani</strong>
+</p>
+
+<p align="center">
+  PhD Thesis — Fabio Liberti<br>
+  <a href="https://www.fenith.org/">www.fenith.org</a>
+</p>
 
 ---
 
