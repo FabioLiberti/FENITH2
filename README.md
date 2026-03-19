@@ -330,17 +330,17 @@ FENITH/
 
 | Repository | Description | Stack | RQ |
 |---|---|---|---|
-| [flopbg](https://github.com/FabioLiberti/flopbg) | FL research platform — Universitas Mercatorum & Ospedale Pediatrico Bambino Gesù. 12 FL algorithms, 11 datasets (5 benchmark + 6 clinical). | Python, Flask, TensorFlow, React | <abbr title="Technological Framework">RQ1</abbr>, <abbr title="Practical Adoption">RQ3</abbr> |
-| [BLEKFL2](https://github.com/FabioLiberti/BLEKFL2) | FL research platform — Blekinge Institute of Technology (Sweden) & Universitas Mercatorum. 17+ FL algorithms, Flower framework. | Python, Flask, PyTorch, Flower | <abbr title="Technological Framework">RQ1</abbr>, <abbr title="EHDS Interoperability">RQ4</abbr> |
-| [FL-EHDS-FLICS2026](https://github.com/FabioLiberti/FL-EHDS-FLICS2026) | FL + EHDS governance framework. 17 FL algorithms, 19 healthcare datasets, differential privacy, secure aggregation. | Python | <abbr title="Technological Framework">RQ1</abbr>-<abbr title="Multidimensional Governance">2</abbr>-<abbr title="Practical Adoption">3</abbr>-<abbr title="EHDS Interoperability">4</abbr> |
+| [flopbg](https://github.com/FabioLiberti/flopbg) | FL research platform — Universitas Mercatorum & Ospedale Pediatrico Bambino Gesù. 12 FL algorithms, 11 datasets (5 benchmark + 6 clinical). | Python, Flask, TensorFlow, React | [RQ1](#platforms "Technological Framework"), [RQ3](#platforms "Practical Adoption") |
+| [BLEKFL2](https://github.com/FabioLiberti/BLEKFL2) | FL research platform — Blekinge Institute of Technology (Sweden) & Universitas Mercatorum. 17+ FL algorithms, Flower framework. | Python, Flask, PyTorch, Flower | [RQ1](#platforms "Technological Framework"), [RQ4](#platforms "EHDS Interoperability") |
+| [FL-EHDS-FLICS2026](https://github.com/FabioLiberti/FL-EHDS-FLICS2026) | FL + EHDS governance framework. 17 FL algorithms, 19 healthcare datasets, differential privacy, secure aggregation. | Python | [RQ1](#platforms "Technological Framework")-[2](#platforms "Multidimensional Governance")-[3](#platforms "Practical Adoption")-[4](#platforms "EHDS Interoperability") |
 
 ## Applications
 
 | Repository | Description | Domain | RQ |
 |---|---|---|---|
-| [Questionnaire_FL](https://github.com/FabioLiberti/Questionnaire_FL) | Research questionnaire on FL adoption in Italian hospitals. 34 questions, systematic literature review. | Healthcare Adoption | <abbr title="Practical Adoption">RQ3</abbr> |
-| [CIDE](https://github.com/FabioLiberti/CIDE) | Federated Learning Health Data Platform - OMOP/FHIR business models for European digital health research networks (EHDS). | Digital Health / Business Models | <abbr title="Multidimensional Governance">RQ2</abbr>, <abbr title="EHDS Interoperability">RQ4</abbr> |
-| [CIDE2](https://github.com/FabioLiberti/CIDE2) | Explainable Federated Learning for secure telemedicine — privacy-preserving deepfake detection in digital health platforms. | Digital Health / XAI | <abbr title="Technological Framework">RQ1</abbr>, <abbr title="Multidimensional Governance">RQ2</abbr> |
+| [Questionnaire_FL](https://github.com/FabioLiberti/Questionnaire_FL) | Research questionnaire on FL adoption in Italian hospitals. 34 questions, systematic literature review. | Healthcare Adoption | [RQ3](#applications "Practical Adoption") |
+| [CIDE](https://github.com/FabioLiberti/CIDE) | Federated Learning Health Data Platform - OMOP/FHIR business models for European digital health research networks (EHDS). | Digital Health / Business Models | [RQ2](#applications "Multidimensional Governance"), [RQ4](#applications "EHDS Interoperability") |
+| [CIDE2](https://github.com/FabioLiberti/CIDE2) | Explainable Federated Learning for secure telemedicine — privacy-preserving deepfake detection in digital health platforms. | Digital Health / XAI | [RQ1](#applications "Technological Framework"), [RQ2](#applications "Multidimensional Governance") |
 | [FedHR5.0](https://github.com/FabioLiberti/FedHR5.0) | Privacy-preserving Federated Learning framework for Human Resource Management in Industry 5.0. | HR / Industry 5.0 | — |
 | [CRISTAIN2025](https://github.com/FabioLiberti/CRISTAIN2025) | FA-FedAvg — Forensic-Aware Federated Averaging for law enforcement inter-agency collaboration. | Criminal Justice | — |
 
@@ -348,19 +348,19 @@ FENITH/
 
 | Repository | Description | Focus | RQ |
 |---|---|---|---|
-| [AI-DIGOSA](https://github.com/FabioLiberti/AI-DIGOSA) | Multidimensional framework analyzing tensions between norms, ethics, and innovation in distributed AI healthcare. | Ethics & Regulation | <abbr title="Multidimensional Governance">RQ2</abbr>, <abbr title="EHDS Interoperability">RQ4</abbr> |
-| [icsis2026](https://github.com/FabioLiberti/icsis2026) | FL as policy data infrastructure for territorial healthcare planning in aging European regions (EHDS). | Health Policy | <abbr title="Practical Adoption">RQ3</abbr>, <abbr title="EHDS Interoperability">RQ4</abbr> |
-| [ICID2026](https://github.com/FabioLiberti/ICID2026) | Three-layered reference architecture for deploying FL within EHDS — IDSA, Data Mesh, hierarchical FL. | Architecture & Standards | <abbr title="Technological Framework">RQ1</abbr>, <abbr title="EHDS Interoperability">RQ4</abbr> |
+| [AI-DIGOSA](https://github.com/FabioLiberti/AI-DIGOSA) | Multidimensional framework analyzing tensions between norms, ethics, and innovation in distributed AI healthcare. | Ethics & Regulation | [RQ2](#governance "Multidimensional Governance"), [RQ4](#governance "EHDS Interoperability") |
+| [icsis2026](https://github.com/FabioLiberti/icsis2026) | FL as policy data infrastructure for territorial healthcare planning in aging European regions (EHDS). | Health Policy | [RQ3](#governance "Practical Adoption"), [RQ4](#governance "EHDS Interoperability") |
+| [ICID2026](https://github.com/FabioLiberti/ICID2026) | Three-layered reference architecture for deploying FL within EHDS — IDSA, Data Mesh, hierarchical FL. | Architecture & Standards | [RQ1](#governance "Technological Framework"), [RQ4](#governance "EHDS Interoperability") |
 
 ## Foundations
 
 | Repository | Description | Type | RQ |
 |---|---|---|---|
-| [DHFLPL2](https://github.com/FabioLiberti/DHFLPL2) | Foundational paper — MDPI Applied Sciences 2024 (21 citations). Systematized evolution of the FL research platform. | Seminal · P-M | <abbr title="Technological Framework">RQ1</abbr>, <abbr title="Practical Adoption">RQ3</abbr> |
-| [DHFLPL](https://github.com/FabioLiberti/DHFLPL) | Original repo referenced in the published paper (v1). | Legacy · P-M | <abbr title="Technological Framework">RQ1</abbr>, <abbr title="Practical Adoption">RQ3</abbr> |
-| [Heterogeneous_Federated_Learning](https://github.com/FabioLiberti/Heterogeneous_Federated_Learning) | Curated collection of educational materials on heterogeneous FL (2020+). | Educational | <abbr title="Technological Framework">RQ1</abbr> |
+| [DHFLPL2](https://github.com/FabioLiberti/DHFLPL2) | Foundational paper — MDPI Applied Sciences 2024 (21 citations). Systematized evolution of the FL research platform. | Seminal · P-M | [RQ1](#foundations "Technological Framework"), [RQ3](#foundations "Practical Adoption") |
+| [DHFLPL](https://github.com/FabioLiberti/DHFLPL) | Original repo referenced in the published paper (v1). | Legacy · P-M | [RQ1](#foundations "Technological Framework"), [RQ3](#foundations "Practical Adoption") |
+| [Heterogeneous_Federated_Learning](https://github.com/FabioLiberti/Heterogeneous_Federated_Learning) | Curated collection of educational materials on heterogeneous FL (2020+). | Educational | [RQ1](#foundations "Technological Framework") |
 | tesi_fl_2025 | Thesis core repository. | Private | All |
-| HFEDL_Project | Heterogeneous FL research project. | Private | <abbr title="Technological Framework">RQ1</abbr> |
+| HFEDL_Project | Heterogeneous FL research project. | Private | [RQ1](#foundations "Technological Framework") |
 
 ---
 
