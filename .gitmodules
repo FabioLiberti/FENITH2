@@ -37,3 +37,6 @@
 [submodule "applications/CIDE"]
 	path = applications/CIDE
 	url = https://github.com/FabioLiberti/CIDE.git
+[submodule "applications/CIDE2"]
+	path = applications/CIDE2
+	url = https://github.com/FabioLiberti/CIDE2.git

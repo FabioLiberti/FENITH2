@@ -41,8 +41,9 @@ FENITH/
 | Repository | Description | Domain |
 |---|---|---|
 | [Questionnaire_FL](https://github.com/FabioLiberti/Questionnaire_FL) | Research questionnaire on FL adoption in Italian hospitals. 34 questions, systematic literature review. | Healthcare Adoption |
-| [CIDE](https://github.com/FabioLiberti/CIDE) | CIDE 2025 conference contributions. | Information Systems |
+| [CIDE](https://github.com/FabioLiberti/CIDE) | Federated Learning + OMOP/FHIR business models for European digital health research networks (EHDS). | Digital Health / Business Models |
 | [FedHR5.0](https://github.com/FabioLiberti/FedHR5.0) | Privacy-preserving Federated Learning framework for Human Resource Management in Industry 5.0. | HR / Industry 5.0 |
+| [CIDE2](https://github.com/FabioLiberti/CIDE2) | Explainable Federated Learning for secure telemedicine — privacy-preserving deepfake detection in digital health platforms. | Digital Health / XAI |
 | [CRISTAIN2025](https://github.com/FabioLiberti/CRISTAIN2025) | FA-FedAvg — Forensic-Aware Federated Averaging for law enforcement inter-agency collaboration. | Criminal Justice |
 
 ## Governance
@@ -71,7 +72,7 @@ FENITH/
 | P-IS | ISM 2025 | 2025 | [FedHR5.0](https://github.com/FabioLiberti/FedHR5.0) |
 | P-CR | CRISTAIN 2025 | 2025 | [CRISTAIN2025](https://github.com/FabioLiberti/CRISTAIN2025) |
 | P-C1 | CIDE 2025 (FL) | 2025 | [CIDE](https://github.com/FabioLiberti/CIDE) |
-| P-C2 | CIDE 2025 (FL + XAI DeepFake) | 2025 | *Repo TBD* |
+| P-C2 | CIDE 2025 (FL + XAI DeepFake) | 2025 | [CIDE2](https://github.com/FabioLiberti/CIDE2) |
 | P-IT | ITAIS 2025 | 2025 | [AI-DIGOSA](https://github.com/FabioLiberti/AI-DIGOSA) |
 | IFKAD | IFKAD 2026 (FedHR5.0) | 2026 | *Repo TBD* |
 | ICID | ICID 2026 | 2026 | [ICID2026](https://github.com/FabioLiberti/ICID2026) |
