@@ -61,15 +61,47 @@ This repository serves as the central hub for the PhD research project on **Fede
 > See the full [architecture diagram](docs/architecture.md) for a visual overview.
 
 <p align="center">
-  <img src="FENITH_Diagram.png" alt="FENITH Diagram" width="48%">
-  &nbsp;
-  <img src="FENITH_Infographic.png" alt="FENITH Infographic" width="48%">
+  <img src="FENITH_Diagram.png" alt="FENITH Diagram" width="85%">
 </p>
 
+<details>
+<summary><strong>Fig. 1 — FENITH Research Architecture Diagram</strong></summary>
+
+Hierarchical map of the entire FENITH meta-repository, showing the flow from **Research Components & Inputs** (left) to **Research Outputs** (right). The diagram is organized into five color-coded layers:
+
+- **Foundations** (grey) — DHFLPL2 (seminal paper, MDPI 2024), Heterogeneous FL educational collection, HFEDL_Project, and the private thesis repository (`tesi_fl_2025`). These feed into the experimental platforms.
+- **Experimental Platforms** (blue) — Three FL research platforms: **flopbg** (TensorFlow/React, Bambino Gesù collaboration), **BLEKFL2** (PyTorch/Flower, Blekinge collaboration), and **FL-EHDS-FLICS2026** (Python, EHDS compliance framework). Each platform connects to specific conference publications on the right.
+- **Domain-Specific Applications** (orange) — Five applied repositories: **Questionnaire_FL** (hospital adoption survey), **CIDE** (OMOP/FHIR business models), **CIDE2** (XAI deepfake detection), **FedHR5.0** (Industry 5.0 HR), and **CRISTAIN2025** (law enforcement FA-FedAvg). Each is mapped to its corresponding conference paper.
+- **Governance & Ethics** (green) — Three governance-focused repositories: **AI-DIGOSA** (ethics/regulation tensions), **icsis2026** (health policy infrastructure), and **ICID2026** (EHDS reference architecture with IDSA/Data Mesh).
+- **Research Outputs** (right column) — All 10 publications (P-M through IFKAD), thesis documents, survey materials, and the final PhD Thesis & Dissertation Framework (EHDS).
+
+Arrows trace the lineage from foundational work through platforms and applications to published outputs.
+
+</details>
+
+---
+
 <p align="center">
-  <em>Left: Research architecture — mapping of platforms, applications, governance, and foundations.<br>
-  Right: Project infographic — timeline, publications, and key contributions overview.</em>
+  <img src="FENITH_Infographic.png" alt="FENITH Infographic" width="85%">
 </p>
+
+<details>
+<summary><strong>Fig. 2 — FENITH Project Infographic</strong></summary>
+
+Visual summary of the FENITH meta-repository, designed as a single-page overview with four main sections:
+
+- **Central Hub** (top center) — Shows FENITH as the aggregation point linking all research artifacts: platforms, applications, governance frameworks, foundational studies, papers, and thesis documents. Includes the repository URL and website link.
+- **Four Clusters** (middle row) — Each cluster is presented as a card with its repositories:
+  - *Platforms* (teal): flopbg, BLEKFL2, FL-EHDS-FLICS2026 with their tech stacks and key metrics.
+  - *Applications* (orange): Questionnaire_FL, CIDE, CIDE2, FedHR5.0, CRISTAIN2025 with domain labels.
+  - *Governance* (blue): AI-DIGOSA, icsis2026, ICID2026 with focus areas.
+  - *Foundations* (grey): DHFLPL2, DHFLPL, Heterogeneous_FL, plus private repos.
+- **Repository Structure** (top right) — Tree view of the directory layout (`platforms/`, `applications/`, `governance/`, `foundations/`, `docs/`).
+- **Publications** (bottom left) — Complete table of all 10 papers with codes, titles/conferences, years, and status. Includes DOI link for the foundational P-M paper.
+- **Getting Started** (bottom right) — Clone instructions with `--recurse-submodules` and the private repo access note.
+- **Footer** — Author, affiliation, license (CC BY-NC-SA 4.0).
+
+</details>
 
 ---
 
@@ -122,7 +154,7 @@ gantt
 
     section Internships
     OPBG — Ospedale Pediatrico Bambino Gesù :crit, done, 2023-10, 2025-03
-    BTH — Blekinge Institute of Technology (Sweden) :crit, active, 2025-04, 2025-09
+    BTH — Blekinge Institute of Technology (Sweden) :crit, active, 2025-04, 2026-09
 
     section Thesis
     FENITH meta-repo                 :active, 2026-03, 2026-09
