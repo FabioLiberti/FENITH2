@@ -8,6 +8,15 @@
     },
     {
       "pattern": "^https://github.com/FabioLiberti/HFEDL_Project"
+    },
+    {
+      "pattern": "^https://doi.org/"
+    },
+    {
+      "pattern": "^https://scholar.google.com"
+    },
+    {
+      "pattern": "^https://www.researchgate.net"
     }
   ],
   "timeout": "10s",
