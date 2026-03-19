@@ -40,3 +40,9 @@
 [submodule "applications/CIDE2"]
 	path = applications/CIDE2
 	url = https://github.com/FabioLiberti/CIDE2.git
+[submodule "foundations/DHFLPL2"]
+	path = foundations/DHFLPL2
+	url = https://github.com/FabioLiberti/DHFLPL2.git
+[submodule "foundations/DHFLPL"]
+	path = foundations/DHFLPL
+	url = https://github.com/FabioLiberti/DHFLPL.git

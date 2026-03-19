@@ -58,6 +58,8 @@ FENITH/
 
 | Repository | Description | Type |
 |---|---|---|
+| [DHFLPL2](https://github.com/FabioLiberti/DHFLPL2) | Foundational paper — MDPI Applied Sciences 2024 (21 citations). Systematized evolution of the FL research platform. | Seminal · P-M |
+| [DHFLPL](https://github.com/FabioLiberti/DHFLPL) | Original repo referenced in the published paper (v1). | Legacy · P-M |
 | [Heterogeneous_Federated_Learning](https://github.com/FabioLiberti/Heterogeneous_Federated_Learning) | Curated collection of educational materials on heterogeneous FL (2020+). | Educational |
 | tesi_fl_2025 | Thesis core repository. | Private |
 | HFEDL_Project | Heterogeneous FL research project. | Private |
@@ -68,7 +70,7 @@ FENITH/
 
 | Code | Title / Conference | Year | Repository |
 |---|---|---|---|
-| P-M | MDPI Applied Sciences (21 citations) | 2024 | Foundations — *Repo TBD* |
+| P-M | MDPI Applied Sciences (21 citations) | 2024 | [DHFLPL2](https://github.com/FabioLiberti/DHFLPL2) · ([v1](https://github.com/FabioLiberti/DHFLPL)) |
 | P-IS | ISM 2025 | 2025 | [FedHR5.0](https://github.com/FabioLiberti/FedHR5.0) |
 | P-CR | CRISTAIN 2025 | 2025 | [CRISTAIN2025](https://github.com/FabioLiberti/CRISTAIN2025) |
 | P-C1 | CIDE 2025 (FL) | 2025 | [CIDE](https://github.com/FabioLiberti/CIDE) |
