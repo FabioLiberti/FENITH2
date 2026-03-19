@@ -6,3 +6,13 @@ title: FENITH
 description: "Federated Learning in Dynamic and Heterogeneous Environments for European Digital Healthcare"
 baseurl: /FENITH2
 show_downloads: true
+
+exclude:
+  - platforms/
+  - applications/
+  - governance/
+  - foundations/
+  - "*.xlsx"
+  - "*.pbix"
+  - "*.docx"
+  - "*.pptx"
