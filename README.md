@@ -77,7 +77,7 @@ This repository serves as the central hub for the PhD research project on **Fede
 
 | | |
 |---|---|
-| **FL Algorithms** | 30+ implemented across 3 platforms (FedAvg, FedProx, SCAFFOLD, ...) |
+| **FL Algorithms** | 38 unique across 3 platforms (FedAvg, FedProx, SCAFFOLD, FedNova, MOON, ...) |
 | **Datasets** | 35 total — 5 benchmark, 6 clinical imaging, 19 healthcare (+ 5 shared) |
 | **Experiments** | 6,000+ (FL-EHDS-FLICS2026 alone) |
 | **Publications** | 10 papers — 1 published (21 citations), 3 presented, 2 pending, 4 submitted |
@@ -119,6 +119,10 @@ gantt
     ICSIS 2026 (Valencia)            :active, 2026-01, 2026-06
     ICID 2026 (Ulaanbaatar, Springer):active, 2026-01, 2026-05
     IFKAD 2026 (Budapest)            :active, 2026-01, 2026-07
+
+    section Internships
+    OPBG — Ospedale Pediatrico Bambino Gesù :crit, done, 2023-10, 2025-03
+    BTH — Blekinge Institute of Technology (Sweden) :crit, active, 2025-04, 2025-09
 
     section Thesis
     FENITH meta-repo                 :active, 2026-03, 2026-09
@@ -183,6 +187,83 @@ gantt
 | Diabetic Retinopathy | Ophthalmology | 35,126 | — |
 | Brain Tumor MRI (Alt.) | Neuro-imaging | 3,264 | — |
 | ISIC Skin Lesions | Dermatology | 2,357 | — |
+
+</details>
+
+---
+
+## FL Algorithms
+
+<details>
+<summary><strong>38 unique algorithms across 3 platforms</strong> (click to expand)</summary>
+
+### Core & Optimization (shared across platforms)
+
+| Algorithm | Description | flopbg | BLEKFL2 | FL-EHDS |
+|---|---|:---:|:---:|:---:|
+| FedAvg | Weighted parameter averaging (McMahan et al., 2017) | Y | Y | Y |
+| FedProx | Proximal regularization for non-IID data (Li et al., 2020) | Y | Y | Y |
+| SCAFFOLD | Control variates for client-drift correction | Y | — | Y |
+| FedNova | Normalized averaging for unequal local steps | Y | — | Y |
+| FedDyn | Per-client dynamic regularizer | Y | — | Y |
+| FedExP | Extrapolation-based dynamic step size (POCS) | Y | — | Y |
+| FedSpeed | Proximal term with gradient perturbation correction | Y | — | Y |
+
+### flopbg Exclusive (5)
+
+| Algorithm | Description |
+|---|---|
+| MOON | Model-contrastive loss aligning local/global representations |
+| FedDisco | KL-divergence weighted client contributions |
+| FedLPA | Layer-wise precision-weighted (posterior) aggregation |
+| DeepAFL | Frozen feature layers + ridge regression classifier |
+| FedEL | Elastic layer selection with configurable budget |
+
+### BLEKFL2 Exclusive (16)
+
+| Algorithm | Description |
+|---|---|
+| FedAvg-Optimized | Enhanced FedAvg with SGD momentum, cosine annealing, AMP |
+| FedLaS | Class-weighted loss with knowledge distillation |
+| FedAvgM | Server-side momentum variant |
+| q-FFL | Fairness-aware client weighting (Li et al., 2020) |
+| NoiseAwareFL | Client filtering by data quality score |
+| RobustAggregation | Outlier-robust aggregation |
+| FedBN | Local batch normalization (Li et al., 2021) |
+| AdaptiveFL | Drift detection with adaptive learning rate |
+| ContinualFL | Continual learning with task boundaries |
+| EWC | Elastic Weight Consolidation (Kirkpatrick et al., 2017) |
+| MetaLearningFL | MAML-based inner/outer optimization |
+| DomainGeneralizationFL | Domain-invariant feature representations |
+| TransferFL | Transfer learning across domains |
+| RegularizationFL | SI / MAS / L2 regularization methods |
+| ReplayBasedFL | Experience and generative replay |
+| ArchitecturalFL | Progressive networks, PackNet, Piggyback |
+
+### FL-EHDS-FLICS2026 Exclusive (10)
+
+| Algorithm | Description |
+|---|---|
+| FedAdam | Server-side Adam momentum |
+| FedYogi | Controlled adaptive learning rate |
+| FedAdagrad | Server-side gradient accumulation |
+| Per-FedAvg | MAML-based meta-learning personalization |
+| Ditto | L2-regularized personal model training |
+| FedLC | Logit calibration for label skew |
+| FedSAM | Sharpness-aware flat minima optimization |
+| FedDecorr | Decorrelation against dimensional collapse |
+| FedLESAM | Globally-guided sharpness-aware (ICML 2024 Spotlight) |
+| HPFL | Shared backbone + personalized classifiers (ICLR 2025) |
+
+### Byzantine Resilience (FL-EHDS-FLICS2026)
+
+| Defense | Description |
+|---|---|
+| Krum / Multi-Krum | Distance-based robust aggregation |
+| Trimmed Mean | Trims outlier gradients before averaging |
+| Coordinate-wise Median | Per-coordinate median aggregation |
+| Bulyan | Krum + trimmed mean combination |
+| FLTrust | Server-guided trust scoring |
 
 </details>
 
