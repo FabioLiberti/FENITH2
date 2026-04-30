@@ -14,10 +14,6 @@
 	path = applications/CRISTAIN2025
 	url = https://github.com/FabioLiberti/CRISTAIN2025.git
 	branch = main
-[submodule "applications/FedHR5.0"]
-	path = applications/FedHR5.0
-	url = https://github.com/FabioLiberti/FedHR5.0.git
-	branch = main
 [submodule "applications/Questionnaire_FL"]
 	path = applications/Questionnaire_FL
 	url = https://github.com/FabioLiberti/Questionnaire_FL.git
@@ -62,3 +58,6 @@
 	path = foundations/DHFLPL
 	url = https://github.com/FabioLiberti/DHFLPL.git
 	branch = main
+[submodule "applications/IFKAD2026"]
+	path = applications/IFKAD2026
+	url = https://github.com/FabioLiberti/IFKAD.git
