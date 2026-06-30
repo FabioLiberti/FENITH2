@@ -1,11 +1,14 @@
 # Tabelle Analitiche della Tesi di Dottorato
 
-**Autore:** Fabio Liberti — Dottorato in *Big Data e Intelligenza Artificiale*, Universitas Mercatorum (Ciclo XXXVIII)
+**Oggetto:** Quadro sinottico delle tabelle analitiche della tesi di dottorato (indice, contributi originali, produzione scientifica, analisi bibliografica)
+**Autore:** Fabio Liberti — Dottorato in *Big Data e Intelligenza Artificiale*, Universitas Mercatorum (Ciclo XXXVIII), Matricola DT00200003
 **Tesi:** *Federated Learning in Ambienti Dinamici ed Eterogenei per la Sanità Digitale Europea: Dal Framework Teorico all'Implementazione negli Ospedali Italiani*
-**Data estrazione:** 30/06/2026 — riferita alla versione congelata della tesi (submodule `foundations/tesi_fl_2025`, commit `v0.2.435`, `main.pdf` 455 pagine).
-**Fonti:** TOC (`main.toc`), Cap 1 §1.7 (`tab:contributi_originali`), Cap 13 §13.1 (`tab:sintesi_risultati`), Appendice D, `bibliography/ref_master.bib` + `main.bbl`.
+**Data:** 30 giugno 2026
+**Fonti:** TOC (`main.toc`), Cap 1 §1.7 (`tab:contributi_originali`), Cap 13 §13.1 (`tab:sintesi_risultati`), Appendice D, `bibliography/ref_master.bib` + `main.bbl` — versione congelata della tesi (submodule `foundations/tesi_fl_2025`, `main.pdf` 455 pagine).
 
 > Documento analitico derivato (non fa parte della tesi). Estrazione automatizzata dalle fonti reali, nessun valore inventato.
+
+**Firma:** _______________________________  (Fabio Liberti)
 
 ---
 
@@ -34,6 +37,8 @@ Tesi monografica — **455 pagine**, 4 Parti, 13 Capitoli + 5 Appendici.
 | | D | Pubblicazioni e Produzione Scientifica | 323 |
 | | E | Documenti Amministrativi e Partnership | 339 |
 
+**Legenda Tabella 1.** *Parte* = una delle quattro macro-sezioni in cui è articolata la tesi. *Cap.* = numero progressivo del capitolo (1–13) o lettera dell'appendice (A–E). *Titolo* = denominazione del capitolo/appendice come da indice. *Pag.* = pagina iniziale nel PDF compilato (455 pagine complessive). La struttura è di tipo **monografico** (tesi unitaria, non *paper collection*).
+
 ---
 
 ## 2. Tabella Risultati originali
@@ -48,6 +53,10 @@ Sintesi dei **5 contributi originali + 1 implementation guideline** (da `tab:sin
 | **4 · Empirico** | Validazione su 4 *strand* + ecosistema sperimentale | **FL-EHDS** 6.004 esp.; ~7.960 ecosistema; 18 mesi + 6 mesi tirocinio | **FL-EHDS** + *monografici* (OPBGFL, BLEKFL2, Indagine Nazionale) | 7–10 | RQ1·RQ3 |
 | **5 · Governance** *(AIDIGOSA)* | AIDIGOSA 4 dim. + 5ª organizzativa; modelli economici; policy | overhead governance <1,1%; Shapley Gini(SV) vs Gini(data) | **AIDIGOSA**, **FL-BMERN**, **FL-EHDS**, **FL-EHDSTAGE**, **FedHR5.0** | 6·12 | RQ2·RQ3 |
 | **6 · Implementation guideline** | Incompatibilità Adam–SCAFFOLD (*boundary finding cross-dataset*) | +84,55 pp MNIST / +75,00 pp Fashion-MNIST; SCAFFOLD-specific | *boundary finding* | 7 | — |
+
+**Legenda Tabella 2.** *Blocco* = i cinque contributi originali della tesi più l'*implementation guideline* conclusiva. *Risultato principale* = sintesi del contributo. *Evidenza load-bearing* = dato/risultato portante che sostiene il contributo. *Paper* = pubblicazioni peer-reviewed di riferimento (**in grassetto** = a prima firma dell'autore). *Cap.* = capitoli di sviluppo. *RQ* = *Research Question* servita.
+*Sigle:* **DEI** = Diagnostic Equity Index (metrica originale, ∈[0,1]); **FDI** = Feature Drift Index; **RS** = Robustness Score; **AR** = Adaptation Rate; **DQN** = Deep Q-Network (apprendimento per rinforzo); **TRL** = Technology Readiness Level (scala 1–9); **DP** = Differential Privacy; **pp** = punti percentuali.
+*Research Questions:* **RQ1** architetture *adaptive end-to-end* per l'eterogeneità multidimensionale e dinamica · **RQ2** modello di governance multi-stakeholder per il paradigma federato · **RQ3** evidenze empiriche sull'adozione nel Servizio Sanitario Nazionale · **RQ4** architettura *production-ready* EHDS-compliant con interoperabilità multi-livello.
 
 ---
 
@@ -72,11 +81,14 @@ Sintesi dei **5 contributi originali + 1 implementation guideline** (da `tab:sin
 
 **Totali:** 7 peer-reviewed · 3 monografici · 2 soft orphan = **10 contributi principali** (+2).
 
+**Legenda Tabella 3.** *Tipo* — **peer-reviewed** = contributo con revisione fra pari (rivista o atti di conferenza); **monografico (*hard orphan*)** = contributo autoriale privo di pubblicazione peer-reviewed dedicata, valorizzato nel corpo della tesi; **soft orphan** = iniziativa documentata per tracciabilità ma non computata fra i contributi scientifici attivi. *Ruolo autore* = posizione dell'autore nella *authorship*. *Cap. tesi* = capitoli in cui il contributo è mappato.
+*Sedi/editori:* **MDPI** = Multidisciplinary Digital Publishing Institute · **ItAIS** = Italian Chapter of the Association for Information Systems · **CIDE** = Creativity and Innovation in Digital Economy · **FLICS** = Federated Learning and Intelligent Computing Systems · **ICSIS** = Sustainability, Innovation, and Society · **IFKAD** = International Forum on Knowledge Asset Dynamics · **OPBG-IRCCS** = Ospedale Pediatrico Bambino Gesù · **BTH** = Blekinge Institute of Technology (Karlskrona, SE).
+
 ---
 
 ## 4. Tabella analisi bibliografia — n = 451
 
-Fonte: `bibliography/ref_master.bib` + `main.bbl` — **451 entries uniche** (voci stampate 1→451; `\bibentries` = 451, allineato in `v0.2.435`; range anni 1912–2026).
+Fonte: `bibliography/ref_master.bib` + `main.bbl` — **451 entries uniche** (voci stampate 1→451; `\bibentries` = 451; range anni 1912–2026).
 
 ### 4a — Classi di anno (n = 451)
 
@@ -125,6 +137,12 @@ Fonte: `bibliography/ref_master.bib` + `main.bbl` — **451 entries uniche** (vo
 | Altro / fonti istituzionali (PNRR, decreti, ISTAT, GIMBE…) | 58 | 12,9% |
 | **Totale** | **451** | **100%** |
 
+**Legenda Tabella 4.** Analisi della bibliografia consolidata della tesi (**451 voci uniche**, numerate 1→451 nel PDF).
+- **4a — Classi di anno:** distribuzione delle voci per fascia temporale, sulla base del campo `year`/`date` di ciascuna voce in `main.bbl`. La riga *recenti 2021–2026* misura l'attualità del corpus (57,6%). Dato **esatto**.
+- **4b — Classi di tipologia:** distribuzione per *entry type* BibTeX. `@article` = articoli di rivista; `@inproceedings` = atti di conferenza; `@misc` = fonti web/istituzionali; `@techreport` = report tecnici; `@book` = libri. Dato **esatto**.
+- **4c — Classi di argomento:** ripartizione tematica ottenuta per *matching* di parole chiave sui titoli, con assegnazione di ciascuna voce a **una sola** categoria (priorità per evitare doppi conteggi). Poiché il `.bib` non contiene un campo `keywords`, questa classificazione è **euristica e indicativa** (fotografia della composizione tematica, non dato bibliometrico certificato).
+- *%* = percentuale sul totale di 451 voci.
+
 ---
 
 ### Note di rigore
@@ -132,3 +150,9 @@ Fonte: `bibliography/ref_master.bib` + `main.bbl` — **451 entries uniche** (vo
 - **Tabelle 1, 2, 3, 4a, 4b**: dati **esatti**, estratti dalle fonti reali (TOC, tabelle della tesi, Appendice D, `main.bbl`).
 - **4a**: l'unica voce priva di campo anno/data (`fda2024meddev`) è assegnata al 2024 in base al citekey (documento FDA MEDDEV 2024).
 - **4c**: classificazione **euristica/indicativa** (matching parole chiave sui titoli, una sola categoria per voce per priorità) — fotografia della composizione tematica, non dato bibliometrico certificato.
+
+---
+
+*Documento redatto in data 30 giugno 2026.*
+
+**Firma:** _______________________________  (Fabio Liberti)
