@@ -61,3 +61,6 @@
 [submodule "applications/IFKAD2026"]
 	path = applications/IFKAD2026
 	url = https://github.com/FabioLiberti/IFKAD.git
+[submodule "books/collana_fl"]
+	path = books/collana_fl
+	url = https://github.com/FabioLiberti/Collana_FL_2026.git
